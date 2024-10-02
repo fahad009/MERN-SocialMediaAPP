@@ -1,0 +1,16 @@
+.hoverable {
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.hoverable:not(.selected):hover {
+    color: #3c4b64;
+    border: 1px solid #9d9c9c;
+    background-color: #e3e3e3;
+}
+
+.selected {
+    color: white;
+    border: 1px solid #9d9c9c;
+    background-color: #3c4b64;
+}
